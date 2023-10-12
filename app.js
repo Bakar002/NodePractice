@@ -1,10 +1,7 @@
-const Abdullah="Abdullah";
-const Mohsin="Mohsin";
+const names=require('./4-names')
+const sayHello=require('./5-utils')
+console.log(names);
 
-
-const sayHello =(name)=>{
-    console.log(`hello there ${name}`);
-}
 sayHello('Abubakar')
-sayHello(Abdullah)
-sayHello(Mohsin)
+sayHello(names.abdullah)
+sayHello(names.mohsin)
