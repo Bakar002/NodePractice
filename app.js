@@ -1,7 +1,4 @@
-const names=require('./4-names')
-const sayHello=require('./5-utils')
-console.log(names);
-require('./7-mindgernade')
-sayHello('Abubakar')
-sayHello(names.abdullah)
-sayHello(names.mohsin)
+const os =require('os')
+const user = os.userInfo()
+console.log(user)
+console.log(`the system uptime is ${os.uptime()} seconds`)
