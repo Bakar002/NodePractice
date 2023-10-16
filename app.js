@@ -1,17 +1,5 @@
-const os =require('os')
-const user = os.userInfo()
-console.log(user)
-console.log(`the system uptime is ${os.uptime()} seconds`)
+const path =require('path')
 
-
-
-const currentos={
-name:os.type(),
-release:os.release(),
-totalmemory:os.totalmem(),
-freeMemory:os.freemem(),
-
-
-
-}
-console.log(currentos)
+console.log(path.sep)
+const filepath=path.join('//folder','subfolder//','testing.txt');
+console.log(filepath)
